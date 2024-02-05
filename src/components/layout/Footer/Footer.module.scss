@@ -1,0 +1,16 @@
+.Footer {
+  p {
+    border: 1px solid;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+      width: 30px;
+      margin-left: 10px;
+    }
+  }
+}

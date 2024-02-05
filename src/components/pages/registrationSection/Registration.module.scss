@@ -1,0 +1,57 @@
+.Login {
+  display: flex;
+
+  justify-content: center;
+
+  .login_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    border: 1px solid rgb(213, 212, 212);
+    border-radius: 10px;
+    gap: 20px;
+    img {
+      width: 180px;
+    }
+    .inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input {
+        border: 1px solid rgb(169, 163, 163);
+        width: 400px;
+        height: 44px;
+        border-radius: 5px;
+
+        &::placeholder {
+          font-size: 17px;
+          padding-left: 20px;
+        }
+      }
+    }
+
+    .buttons {
+      position: relative;
+      left: 150px;
+      top: 20px;
+
+      .button {
+        background-color: rgb(62, 141, 206);
+        width: 100px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-size: 17px;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
